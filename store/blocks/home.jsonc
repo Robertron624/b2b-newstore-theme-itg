@@ -2,18 +2,21 @@
   "store.home": {
     "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"],
     "parent": {
-      "challenge": "challenge.trade-policy-condition"
+      "challenge": "challenge.trade-policy-condition#b2b"
     }
   },
 
-  "challenge.trade-policy-condition": {
+  "challenge.trade-policy-condition#b2b": {
     "props": {
-      "redirectPath": "/login"
+      "redirectPath": "/no-registrado",
+      // "forbiddenRedirectPath": "/login",
+      "defaultContentVisibility": "visible"
     }
   },
 
   "responsive-layout.desktop": {
     "children": [
+      "list-context.image-list#homeBanners",
       "flex-layout.row#imageList",
       "flex-layout.row#shopByCategory",
       // Deprecated
@@ -25,7 +28,10 @@
       "flex-layout.row#trending",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition#b2b"
+    }
   },
 
   "flex-layout.row#imageList": {

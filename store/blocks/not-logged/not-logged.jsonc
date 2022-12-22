@@ -1,0 +1,27 @@
+{
+  "store.custom#home-not-logged": {
+    "parent": {
+        "header": "header#not-logged"
+      //   "footer": "footer#not-logged"
+    },
+    "blocks": [
+      //   "flex-layout.row#home-banner",
+      "flex-layout.row#home-not-logged"
+      //   "flex-layout.row#home-brands",
+      //   "flex-layout.row#home-brand-value"
+    ]
+  },
+
+  "header#not-logged": {
+    "blocks": [
+      "header-layout.desktop#not-logged__desktop"
+    //   "header-layout.mobile#not-logged__mobile"
+    ]
+  }
+//   "footer#not-logged": {
+//     "blocks": [
+//       "footer-layout.desktop#not-logged__desktop",
+//       "footer-layout.mobile#not-logged__mobile"
+//     ]
+//   }
+}

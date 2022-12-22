@@ -717,3 +717,12 @@
 .flexCol--c-on-base--inverted {
   color: #fff;
 }
+
+
+
+/* No registrado*/
+
+.flexRowContent--no-registrado {
+  padding: 2rem 0;
+  background-color: #620ad6;
+}

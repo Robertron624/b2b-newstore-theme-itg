@@ -12,7 +12,10 @@
       "flex-layout.row#trending",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition#b2b"
+    }
   },
 
   // Deprecated

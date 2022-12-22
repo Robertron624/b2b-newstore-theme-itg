@@ -1,0 +1,94 @@
+{
+    "flex-layout.row#home-not-logged": {
+        "title": "Grupo no Registrado",
+        "children": [
+            "flex-layout.col#image-no-register1",
+            "flex-layout.col#image-no-register2",
+            "flex-layout.col#image-no-register3"
+        ],
+        "props": {
+            "blockClass": "home--no-register"
+        }
+    },
+    "flex-layout.col#image-no-register1": {
+        "title": "Label 1",
+        "children": [
+            "image#no-register1",
+            "rich-text#text-no-register1"
+        ],
+        "props": {
+            "blockClass": "icon--no-register"
+        }
+    },
+    "image#no-register1": {
+        "title": "Imagen",
+        "props": {
+            "src": "assets/img/home/ion_bag-handle-outline.png",
+            "maxHeight": 48,
+            "maxWidth": 48,
+            "blockClass": "banner--no-register"
+        }
+    },
+    "rich-text#text-no-register1": {
+        "title": "Texto",
+        "props": {
+            "text": "Gran variedad de productos en un mismo lugar",
+            "blockClass": [
+                "text-no-register",
+                "firt"
+            ]
+        }
+    },
+    "flex-layout.col#image-no-register2": {
+        "title": "Label 2",
+        "children": [
+            "image#no-register2",
+            "rich-text#text-no-register2"
+        ],
+        "props": {
+            "blockClass": "icon--no-register"
+        }
+    },
+    "image#no-register2": {
+        "title": "Imagen",
+        "props": {
+            "src": "assets/img/home/ion_headset-outline.png",
+            "maxHeight": 48,
+            "maxWidth": 48,
+            "blockClass": "banner--no-register"
+        }
+    },
+    "rich-text#text-no-register2": {
+        "title": "Texto",
+        "props": {
+            "text": "Atención personalizada a través de distintos canales",
+            "blockClass": "text-no-register"
+        }
+    },
+    "flex-layout.col#image-no-register3": {
+        "title": "Label 3",
+        "children": [
+            "image#no-register3",
+            "rich-text#text-no-register3"
+        ],
+        "props": {
+            "blockClass": "icon--no-register"
+        }
+    },
+    "image#no-register3": {
+        "title": "Imagen",
+        "props": {
+            "src": "assets/img/home/ion_cash-outline.png",
+            "maxHeight": 48,
+            "maxWidth": 48,
+            "blockClass": "banner--no-register"
+        }
+    },
+    "rich-text#text-no-register3": {
+        "title": "Texto",
+        "props": {
+            "text": "Pagos fáciles y rápidos a través de Davivienda",
+            "blockClass": "text-no-register"
+        }
+    }
+}

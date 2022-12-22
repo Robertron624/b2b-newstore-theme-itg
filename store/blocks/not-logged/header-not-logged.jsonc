@@ -1,0 +1,99 @@
+{
+  "header-layout.desktop#not-logged__desktop": {
+    "title": "header desktop",
+    "children": ["sticky-layout#desktop-no-registrado"]
+  },
+  "sticky-layout#desktop-no-registrado": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop-col-1-no-registrado"]
+  },
+  "flex-layout.row#desktop-col-1-no-registrado": {
+    "title": "container",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": ["desktop-col-1", "no-registrado"]
+    },
+    "children": [
+      "flex-layout.col#logo-no-registrado",
+      "login"
+    ]
+  },
+  "flex-layout.col#logo-no-registrado": {
+    "title": "logo",
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-no-registrado"
+    },
+    "children": [
+        // "drawer#no-registrado", 
+        "logo#gabrica"
+    ]
+  },
+//   "drawer#no-registrado": {
+//     "children": ["vtex.menu@2.x:menu#no-registrados"],
+//     "blocks": ["drawer-header#my-drawer-desktop"],
+//     "props": {
+//       "blockClass": "menu-container"
+//     }
+//   },
+  /* menu no registrados */
+  "vtex.menu@2.x:menu#no-registrados": {
+    "props": {
+      "blockClass": "menu-no-registrado",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/login",
+            "noFollow": false,
+            "tagTitle": "Inicia sesión",
+            "text": "Inicia sesión"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "profile-menu",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Contáctanos por Whatsapp",
+            "text": "Contáctanos por Whatsapp"
+          },
+          "iconPosition": "left",
+          "iconProps": {
+            "id": "hpa-whatsapp",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        }
+      ]
+    }
+  },
+  /* menu no registrados */
+  "flex-layout.col#iniciar-sesion": {
+    "title": "link",
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "iniciar-sesion"
+    }
+    // "children": ["flex-layout.col#iniciar-sesion-mobile"]
+  }
+}

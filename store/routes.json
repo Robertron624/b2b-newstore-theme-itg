@@ -1,4 +1,8 @@
 {
+  "store.custom#home-not-logged": {
+    "path": "/no-registrado"
+  },
+
   "store.custom#product-comparison-list": {
     "path": "/product-comparison"
   },

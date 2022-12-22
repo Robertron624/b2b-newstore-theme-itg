@@ -6,6 +6,7 @@
 
 .footerLayout--relative {
   position: relative;
+  margin-top: 1rem;
 }
 
 .footerLayout--z-999 {
